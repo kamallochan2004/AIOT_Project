@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model  # Assuming Keras model
 
 
 
-model_path = "Enter the path of your model" #Enter the path of your trained model
+model_path = "Enter the path of your model" #Enter the path of your trained model should be in .h5 or .keras format
 
 model = load_model(model_path)
 input_image_path =('Enter the Path of the image to be predicted:') #Enter the path of image to you want to test your model
