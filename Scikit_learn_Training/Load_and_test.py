@@ -9,10 +9,10 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report
 
-pretrained=cv.CascadeClassifier('haarcascade_frontalface_default.xml')
+pretrained=cv.CascadeClassifier('D:/Work/AIOT_Project/Scikit_learn_Training/haarcascade_frontalface_default.xml') #Replace your own path
 
-mask=np.load("mask.npy")
-no_mask=np.load('no_mask.npy')
+mask=np.load('Scikit_learn_Training/mask.npy')
+no_mask=np.load('Scikit_learn_Training/no_mask.npy')
 
 #print(mask.shape)
 #print(no_mask.shape)

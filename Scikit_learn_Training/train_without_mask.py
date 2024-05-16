@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report
 
-pretrained=cv.CascadeClassifier('haarcascade_frontalface_default.xml')
+pretrained=cv.CascadeClassifier('D:/Work/AIOT_Project/Scikit_learn_Training/haarcascade_frontalface_default.xml') #replace your own path
 
 capture=cv.VideoCapture(0)
 
@@ -31,7 +31,7 @@ while True:
         break
 capture.release()
 cv.destroyAllWindows()
-np.save('no_mask.npy',data)
+np.save('Scikit_learn_Training/no_mask.npy',data)
 plt.figure(figsize=(2,2))
 plt.imshow(data[0])
 plt.axis(False)
