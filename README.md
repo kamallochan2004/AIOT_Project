@@ -18,3 +18,8 @@ Raspberry Pi (any model with sufficient processing power)
 Raspberry Pi Camera Module
 Non-contact temperature sensor (MLX90614 or similar)
 Python 3 with libraries: OpenCV, TensorFlow, NumPy (pre-installation recommended)
+
+
+#Youtube Link for Demonstration of the Project
+
+https://youtu.be/iLSv2P2ss_Y?si=ZzyKeemvTGG4aooZ
